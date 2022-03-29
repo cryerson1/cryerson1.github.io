@@ -1,0 +1,163 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  font-family: Arial, sans-serif;
+}
+
+body.fall {
+  background-image: url("minimalfall.webp");
+}
+
+body.winter {
+  background-image: url("winterbackdrop2.jpeg");
+}
+
+body.spring {
+  background-image: url("springbackground.jpeg")
+}
+
+body.seasons {
+  background-image: url("seasonsbackground.jpeg")
+}
+
+body.summer {
+  background-image: url("summerbackground.cms")
+}
+#wrap {
+  margin: 0 auto;
+  width: 75%;
+}
+
+aside {
+  text-align: center;
+}
+
+aside a {
+  padding: 10px;
+}
+
+header, nav, section, footer {
+  background: white;
+}
+
+header {
+  background-color: #4BEBC9;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+
+}
+
+nav {
+  background-color: #4BA6EB;
+  padding: 20px;
+  text-align: center;
+}
+
+.spring nav {
+  background-color: yellow
+}
+
+.spring footer {
+  background-color: #e8f075
+}
+
+.fall nav {
+  background-color: orange
+}
+
+.fall header {
+  background-color: black
+}
+
+.fall footer {
+  background-color: #751706
+}
+
+.spring nav {
+  background-color: #f794c8
+}
+
+.spring header {
+  background-color: #75dcf0
+}
+
+.summer header {
+  background-color: #ff598f
+}
+
+.summer nav {
+  background-color: #01dddd
+}
+
+.summer footer {
+  background-color: #00bfaf
+}
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: black;
+}
+
+nav ul {
+    margin: 0;
+
+}
+
+section {
+  background-color: green;
+  overflow: auto;
+}
+
+
+article {
+  background-color: #ECF7F5;
+  width: 93%;
+  float: right;
+  padding: 2% 4%;
+}
+
+footer {
+  background-color: plum;
+  text-align: center;
+  padding: 2%
+}
+
+.yesbird {
+  width: 35%;
+  float: right;
+  margin: 0 0 10px 20px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  #wrap {
+    width: 100%;
+  }
+  nav li {
+    display: block;
+  }
+  nav a {
+    display: block;
+    padding: 5px;
+  }
+  aside, article {
+    float: none;
+    width: 91%;
+  }
+}
