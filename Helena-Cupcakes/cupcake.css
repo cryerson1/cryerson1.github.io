@@ -1,0 +1,123 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  font-family: Arial, sans-serif;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 70%;
+}
+
+aside {
+  text-align: left;
+}
+
+aside a {
+  padding: 10px;
+}
+
+header, nav, section, footer {
+  background: white;
+}
+
+header {
+  background-color: #0EC8C7;
+  text-align: center;
+  padding: 0px;
+
+}
+
+nav {
+  background-color: #0EC8C7;
+  padding: 20px;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 33px;
+  font-size: 120%;
+}
+
+
+nav ul {
+    margin: 0;
+
+}
+
+section {
+  background-color: #EC3632;
+  overflow: auto;
+}
+
+aside {
+  background-color: #EC3632;
+  width: 12%;
+  float: left;
+  padding: 1% 0 0 2%;
+}
+
+aside li {
+  list-style-type: none;
+}
+
+aside ul {
+  padding: 0;
+
+}
+
+aside a {
+  color: white;
+  text-decoration: none;
+  width: 100%
+  padding: 10px 10px 10px 30px;
+  display: inline-block;
+}
+
+
+article {
+  background-color: white;
+  width: 67%;
+  float: right;
+  padding: 2% 4%;
+}
+
+footer {
+  background-color: #0EC8C7;
+  text-align: center;
+  padding: 2%
+}
+
+.yesbird {
+  width: 35%;
+  float: right;
+  margin: 0 0 10px 20px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  #wrap {
+    width: 100%;
+  }
+  nav li {
+    display: block;
+  }
+  nav a {
+    display: block;
+    padding: 5px;
+  }
+  aside, article {
+    float: none;
+    width: 91%;
+  }
+}
